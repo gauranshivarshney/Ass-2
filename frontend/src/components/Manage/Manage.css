@@ -1,0 +1,103 @@
+.manage {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.manage-trades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add1 {
+    background-color: blue;
+    font-size: 23px;
+    border-radius: 15px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    padding: 10px 12px;
+    border-radius: 20px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.manage-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.dates3 {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+}
+
+.dates3 input {
+    border: none;
+}
+
+.calendar1 {
+    color: #a1a3a6;
+}
+
+.item3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.item3 input {
+    border: 1px solid #d1d5db;
+    padding: 8px;
+    width: 80px;
+}
+
+@media screen and (max-width: 1000px){
+    .manage-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 670px){
+    .manage-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 410px){
+    .add1 {
+        display: none;
+    }
+}

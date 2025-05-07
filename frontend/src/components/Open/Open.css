@@ -1,0 +1,65 @@
+.manage {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.manage-trades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.add1 {
+    background-color: blue;
+    font-size: 23px;
+    border-radius: 15px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    padding: 10px 12px;
+    border-radius: 20px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 70px;
+}
+
+.search {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.dates1 {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.dates2 {
+    margin-top: -38px;
+    margin-left: 390px;
+    border: 1px solid #d1d5db;
+    width: 140px;
+    border-radius: 5px;
+}
+
+.dates2 input {
+    border: none;
+    width: 100px;
+}
